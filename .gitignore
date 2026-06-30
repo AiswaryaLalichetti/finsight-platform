@@ -1,0 +1,20 @@
+﻿# Secrets - NEVER commit
+.env
+
+# Python environment
+finsight-env/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+
+# Large data files - never commit to git
+data/2025_public_lar_csv/
+data/2025_public_msamd_csv/
+data/*.zip
+data/*.csv
+data/*.parquet
+
+# OS files
+.DS_Store
+Thumbs.db
